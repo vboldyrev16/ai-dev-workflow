@@ -12,6 +12,8 @@ Backlog → Research & Spec → Design
 
 Every feature passes through these 11 stages. Two of them — the Pre-Dev gates (QA Check and Tech Review) and the Post-Dev gates (Design Review and Code Review) — are the parts that make AI-built features ship at production quality.
 
+The workflow applies the same way across a spectrum of who's at the keyboard: a developer using Claude Code as a pair-programmer, a PM-and-dev pair, or in the extreme case, a PM building solo with AI. The gates do the work either way. The build-team configuration is downstream of the spec discipline, not the other way around. See [when-to-use.md](./when-to-use.md) for which mode fits which situation.
+
 ## Core ideas
 
 ### 1. Spec = single source of truth

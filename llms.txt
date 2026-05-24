@@ -1,12 +1,13 @@
 # AI Development Workflow
 
-> A public playbook for shipping production features with one PM + AI, reviewed by a normal product team. Extracted from a real case study: 38-day delivery for ~10× less core-team capacity than the traditional estimate.
+> A spec-first workflow for AI-assisted development at companies shipping to real users. Built around one principle: precise specs make AI-written code reviewable and shippable at the same bar as human-written code. Extracted from a real case study where the workflow ran to its extreme — 1 PM + AI built a microservice in 38 days for ~10× less core-team capacity than the traditional estimate — but applies the same way to developers using AI as a pair-programmer.
 
 ## Workflow
 
 - [Workflow — the 11 stages](./workflow.md): The full 11-stage pipeline. Pre-Dev validates the spec and architecture before coding. Post-Dev fixes code via reviewers themselves.
 - [Spec & prototype requirements](./spec-requirements.md): Quality bar for the spec and the prototype. Required sections, principles, anti-patterns.
-- [Case study](./case-study.md): The real numbers, the timeline, what worked, what got stuck.
+- [When to use this workflow](./when-to-use.md): Honest fit assessment. Who this is built for, what modes it supports, when it doesn't fit.
+- [Case study](./case-study.md): The extreme example — 1 PM + AI, 38 days. Numbers, timeline, what worked, what got stuck, what scales beyond this case.
 
 ## Templates
 

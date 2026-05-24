@@ -1,5 +1,7 @@
 # Case Study — Analytics Dashboard
 
+> **Read this as a stress-test of the workflow, not a recommendation to fire your developers.** The case below ran the workflow at its extreme: one PM with deep technical background built a new, well-isolated microservice end-to-end with AI, reviewed by the same team that would otherwise have built it. The headline 5–10× number is what happens when conditions are this favourable. Most teams will apply the workflow with developers using AI as a pair-programmer, and the gates will pay off the same way without the build-side compression. See [when-to-use.md](./when-to-use.md) for what generalises and what doesn't.
+
 The first feature shipped end-to-end with this workflow. An analytics dashboard for ~250 premium dealers on a classifieds marketplace. Released to production after 38 days, by 1 PM + AI for the build, and the same core team that would have built it traditionally for the review.
 
 ## Headline numbers
@@ -112,3 +114,21 @@ Not "AI replaces developers". The product still required a backend lead, fronten
 What changed: who *built* the first version. Instead of pulling 3 people (1 BE + 1 FE + 1 QA) for 3–5 months to build a dashboard from scratch, the same team reviewed and hardened a PM + AI build over ~174 hours. The core team gets the parts only they can do. The PM ships a project that, in the older model, would have waited in a backlog for the team to free up.
 
 The honest framing: this freed the core team to work on things the AI workflow can't reach (subscription engine, infrastructure migrations, payment flow). Not "we shipped more for less". "We shipped a thing we weren't going to ship at all this quarter, and the team kept doing their existing work."
+
+---
+
+## What this scales to
+
+The 1-PM build is the extreme. The workflow itself works across a spectrum, and the gates pay off the same way at every point on it:
+
+- **Developer + AI pair (recommended default).** Senior developer uses Claude Code as a pair-programmer inside the same 11 stages. Pre-Dev: QA Check still validates the spec. Pre-Dev: Tech Review still approves the architecture. Post-Dev: Code Review still has the reviewer fixing issues themselves. The developer gets a faster build cycle. The team gets the same review quality. No org-design questions, no "AI replaces devs" anxiety.
+- **PM + dev pair.** PM writes the spec and runs it through Pre-Dev. Developer + AI builds the implementation. PM handles product questions, dev handles technical ones. The split is the same as in traditional product engineering, just with the AI accelerating the build.
+- **PM solo (the case study).** Only sensible when the PM has the technical depth to read the code, debug it, and validate the AI's output. The team must be willing to review the result on its merits. This is not a default — it's a mode that worked in one specific configuration.
+
+The spec discipline is what makes any of these modes work. Without it, AI-assisted development at every level slides into "code nobody can confidently ship". With it, AI fits inside the same engineering process as everything else the team does — just faster on the build leg.
+
+## What this is *not* a proof of
+
+- Not that AI replaces senior engineers. The case study consumed ~87 hours of senior backend lead review and refactor time. The lead's contribution was structurally identical to building it themselves, minus the typing.
+- Not that PMs should build all features. The case study worked for a standalone microservice with a PM who had a deep technical background. Generalising to "every PM ships features now" misreads the data.
+- Not that the 5–10× number is portable. It's a function of fit, not of the workflow alone. The portable thing is the spec discipline and the gates — those scale. The multiplier doesn't.
