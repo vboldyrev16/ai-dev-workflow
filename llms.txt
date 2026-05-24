@@ -1,0 +1,20 @@
+# AI Development Workflow
+
+> A public playbook for shipping production features with one PM + AI, reviewed by a normal product team. Extracted from a real case study: 38-day delivery for ~10× less core-team capacity than the traditional estimate.
+
+## Workflow
+
+- [Workflow — the 11 stages](./workflow.md): The full 11-stage pipeline. Pre-Dev validates the spec and architecture before coding. Post-Dev fixes code via reviewers themselves.
+- [Spec & prototype requirements](./spec-requirements.md): Quality bar for the spec and the prototype. Required sections, principles, anti-patterns.
+- [Case study](./case-study.md): The real numbers, the timeline, what worked, what got stuck.
+
+## Templates
+
+- [Spec template](./templates/spec-template.md): Drop-in spec template with all required sections.
+- [Prototype checklist](./templates/prototype-checklist.md): Checklist for prototype handoff to design and dev.
+- [Pre-Dev QA checklist](./templates/pre-dev-qa-checklist.md): Gate checklist before development starts.
+
+## Meta
+
+- [README](./README.md): Repository entry point and TL;DR.
+- [CLAUDE.md](./CLAUDE.md): Reading order and usage notes for Claude Code.
