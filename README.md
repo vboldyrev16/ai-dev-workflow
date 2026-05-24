@@ -6,6 +6,8 @@ The playbook is extracted from a real case where the workflow ran to its extreme
 
 > If you came here from a talk or a tweet — this is the source. Read it top-to-bottom, fork it, or point Claude Code at this repo and ask it to walk you through.
 
+**Watch the 20-slide talk:** https://ai-dev-workflow-lake.vercel.app
+
 ## What's inside
 
 | File | What it is |
