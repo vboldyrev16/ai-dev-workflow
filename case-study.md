@@ -52,7 +52,7 @@ The spec was run through a structured `task-review` with QA. 15 questions closed
 
 ### Pre-Dev: Tech Review reshaped the architecture
 
-The PM proposed an architecture. The backend lead suggested JWT through a shared core-auth secret, which the PM would not have arrived at. Catching it before any code was written meant zero rework.
+The PM proposed an architecture. The backend lead suggested JWT through a shared auth secret across services, which the PM would not have arrived at. Catching it before any code was written meant zero rework.
 
 ### Functional prototype carried the design conversation
 

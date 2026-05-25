@@ -109,6 +109,6 @@ Each trigger condition explicit, expressible as code.
 | --- | --- | --- |
 | API entry | `src/api/main.py` | FastAPI app, routes |
 | Data layer | `src/data/` | ClickHouse, Django Core, Redis adapters |
-| Auth | `src/auth/jwt.py` | JWT through shared core-auth secret |
+| Auth | `src/auth/jwt.py` | JWT through shared auth service |
 | Frontend pages | `frontend/src/pages/` | Overview, Listings, Calls |
 | Tests | `tests/` | pytest, ~80% coverage |
