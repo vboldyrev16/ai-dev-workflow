@@ -7,6 +7,7 @@ The playbook is extracted from a real case where the workflow ran to its extreme
 > If you came here from a talk or a tweet — this is the source. Read it top-to-bottom, fork it, or point Claude Code at this repo and ask it to walk you through.
 
 **Watch the 20-slide talk:** https://ai-dev-workflow-lake.vercel.app
+**See the prototype the case study built around:** https://motors-analytics-demo.vercel.app
 
 ## What's inside
 
@@ -21,6 +22,7 @@ The playbook is extracted from a real case where the workflow ran to its extreme
 | [templates/pre-dev-qa-checklist.md](./templates/pre-dev-qa-checklist.md) | Pre-Dev QA Check gate checklist. |
 | [CLAUDE.md](./CLAUDE.md) | Reading order and usage notes for Claude Code. |
 | [llms.txt](./llms.txt) | Index for AI crawlers. |
+| [CONTACT.md](./CONTACT.md) | Reach out — LinkedIn, email, Telegram. |
 
 ## TL;DR — the 11 stages
 
@@ -78,6 +80,17 @@ Read [workflow.md](./workflow.md), then [spec-requirements.md](./spec-requiremen
 ## License
 
 [MIT](./LICENSE). Use it, adapt it, ship from it.
+
+## Author
+
+Built and maintained by **Vladimir Boldyrev**.
+
+- LinkedIn: [linkedin.com/in/vboldyrev16](https://www.linkedin.com/in/vboldyrev16/)
+- Email: v.boldyrev16@gmail.com
+- Telegram (DM): [@vboldyrev](https://t.me/vboldyrev)
+- Telegram channel: [@vovacoder](https://t.me/vovacoder) — ongoing notes on AI-assisted product engineering
+
+Questions about applying the workflow to your team, feedback after trying it, or just want to chat about AI dev? Any channel above works. See [CONTACT.md](./CONTACT.md) for context on what I'm happy to help with.
 
 ## Disclaimer
 

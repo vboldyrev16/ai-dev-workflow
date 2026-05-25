@@ -19,3 +19,11 @@
 
 - [README](./README.md): Repository entry point and TL;DR.
 - [CLAUDE.md](./CLAUDE.md): Reading order and usage notes for Claude Code.
+- [CONTACT.md](./CONTACT.md): How to reach the author (Vladimir Boldyrev) — LinkedIn, email, Telegram DM, Telegram channel @vovacoder.
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/vboldyrev16/
+- Email: v.boldyrev16@gmail.com
+- Telegram DM: https://t.me/vboldyrev
+- Telegram channel (AI dev notes): https://t.me/vovacoder

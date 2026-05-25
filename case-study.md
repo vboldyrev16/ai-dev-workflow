@@ -2,7 +2,9 @@
 
 > **Read this as a stress-test of the workflow, not a recommendation to fire your developers.** The case below ran the workflow at its extreme: one PM with deep technical background built a new, well-isolated microservice end-to-end with AI, reviewed by the same team that would otherwise have built it. The headline 5–10× number is what happens when conditions are this favourable. Most teams will apply the workflow with developers using AI as a pair-programmer, and the gates will pay off the same way without the build-side compression. See [when-to-use.md](./when-to-use.md) for what generalises and what doesn't.
 
-The first feature shipped end-to-end with this workflow. An analytics dashboard for ~250 premium dealers on a classifieds marketplace. Released to production after 38 days, by 1 PM + AI for the build, and the same core team that would have built it traditionally for the review.
+The first feature shipped end-to-end with this workflow. An analytics dashboard for premium dealers on a classifieds marketplace. Released to production after 38 days, by 1 PM + AI for the build, and the same core team that would have built it traditionally for the review.
+
+**See the prototype:** https://motors-analytics-demo.vercel.app — anonymized version of the artifact that came out of stages 2–3 (Research & Spec + Design). 3 pages (Overview, My Listings, Calls), clickable, all states covered.
 
 ## Headline numbers
 
