@@ -21,7 +21,6 @@ The playbook is extracted from a real case where the workflow ran to its extreme
 | [templates/prototype-checklist.md](./templates/prototype-checklist.md) | Checklist for prototype handoff. |
 | [templates/pre-dev-qa-checklist.md](./templates/pre-dev-qa-checklist.md) | Pre-Dev QA Check gate checklist. |
 | [examples/motors-analytics-spec.md](./examples/motors-analytics-spec.md) | The actual spec from the case study, anonymized. 16 sections, real formulas, decision log. |
-| [presentation/](./presentation/) | The 20-slide talk that introduces the playbook (HTML, single file). |
 | [CLAUDE.md](./CLAUDE.md) | Reading order and usage notes for Claude Code. |
 | [llms.txt](./llms.txt) | Index for AI crawlers. |
 | [CONTACT.md](./CONTACT.md) | Reach out — LinkedIn, email, Telegram. |
