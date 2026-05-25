@@ -10,6 +10,8 @@ This is a guideline, not a hard gate. For large features it is mandatory in full
 
 ---
 
+> **See it in practice**: [examples/motors-analytics-spec.md](./examples/motors-analytics-spec.md) is the actual spec from the case study — 16 sections, real formulas, scenario logic, decision log. Internal identifiers are replaced with `<placeholder>` markers and "Originally:" comments explain what kind of internal data lived there, so you can map the shape to your own infrastructure.
+
 ## Three principles
 
 ### 1. Spec = SSOT (single source of truth)

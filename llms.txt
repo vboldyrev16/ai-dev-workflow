@@ -15,6 +15,10 @@
 - [Prototype checklist](./templates/prototype-checklist.md): Checklist for prototype handoff to design and dev.
 - [Pre-Dev QA checklist](./templates/pre-dev-qa-checklist.md): Gate checklist before development starts.
 
+## Examples
+
+- [Motors Analytics spec](./examples/motors-analytics-spec.md): The actual 16-section spec from the case study, anonymized with `<placeholder>` markers and "Originally:" comments. Real formulas, scenarios, decision log, backlog. The reference example for what spec-as-SSOT looks like in practice.
+
 ## Meta
 
 - [README](./README.md): Repository entry point and TL;DR.

@@ -6,6 +6,8 @@ The first feature shipped end-to-end with this workflow. An analytics dashboard 
 
 **See the prototype:** https://motors-analytics-demo.vercel.app — anonymized version of the artifact that came out of stages 2–3 (Research & Spec + Design). 3 pages (Overview, My Listings, Calls), clickable, all states covered.
 
+**See the actual spec**: [examples/motors-analytics-spec.md](./examples/motors-analytics-spec.md) — the document that drove the build, anonymized. 16 sections, real formulas, decision log, backlog. Shows what "spec as SSOT" actually looks like at scale.
+
 ## Headline numbers
 
 | Metric | Value |
